@@ -31,7 +31,7 @@ export default function Footer() {
                         </div>
                      </div>
                     
-                 <div className="flex flex-col md:flex-row gap-5 md:gap-40">
+                 <div className="flex flex-col md:flex-row gap-5 md:gap-40 xl:gap-96">
                     <FooterList title="Our Technologies" items={technologies} />
                  
                     <FooterList title="Our Services" items={services} />
